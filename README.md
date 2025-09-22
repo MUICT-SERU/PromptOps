@@ -187,9 +187,9 @@ Each perturbation type includes:
 ###Download for excel results:
 ### 📊 Download Excel Results
 
-[⬇️ Download All Excel Results (ZIP)](gemini_results.zip)
+[⬇️ Download Gemini Results (ZIP)](Experements/Results/promptops_gemini.zip)
 
-[⬇️ Download All Excel Results (ZIP)](gpt_results.zip)
+[⬇️ Download GPT Excel Results (ZIP)](Experements/Results/promptops_gpt.zip)
 
 
 ## 🙏 Acknowledgments
