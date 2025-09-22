@@ -164,6 +164,17 @@ Each perturbation type includes:
 - **Context preservation**: Maintain semantic meaning while introducing variations
 - **Batch processing**: Apply perturbations to entire datasets efficiently
 
+## 📊 Evaluation Result
+
+### With Context
+![GPT-4o With Context](images/with_context_gpt.png)
+![Gemini With Context](images/with_context_gemini.png)
+
+### Without Context
+![GPT-4o Without Context](images/without_context_gpt.png)
+![Gemini Without Context](images/without_context_gemini.png)
+
+
 ## 🙏 Acknowledgments
 
 This project is based on research from "Test It Before You Trust It: Applying Software Testing for Trustworthy In-context Learning" and builds upon various open-source libraries and frameworks:
