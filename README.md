@@ -166,14 +166,23 @@ Each perturbation type includes:
 
 ## 📊 Evaluation Result
 
-### With Context
-![GPT-4o With Context](images/with_context_gpt.png)
-![Gemini With Context](images/with_context_gemini.png)
+### With Context  
 
-### Without Context
-![GPT-4o Without Context](images/without_context_gpt.png)
-![Gemini Without Context](images/without_context_gemini.png)
+**QA (with context): GPT-4o**  
+![GPT-4o With Context](images/with_context_gpt.png)  
 
+**QA (with context): Gemini**  
+![Gemini With Context](images/with_context_gemini.png)  
+
+---
+
+### Without Context  
+
+**QA (without context): GPT-4o**  
+![GPT-4o Without Context](images/without_context_gpt.png)  
+
+**QA (without context): Gemini**  
+![Gemini Without Context](images/without_context_gemini.png) 
 
 ## 🙏 Acknowledgments
 
