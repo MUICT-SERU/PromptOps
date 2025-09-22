@@ -184,12 +184,11 @@ Each perturbation type includes:
 **QA (without context): Gemini**  
 ![Gemini Without Context](images/without_context_gemini.png) 
 
-###Download for excel results:
 ### 📊 Download Excel Results
 
-[⬇️ Download Gemini Results (ZIP)](Experement/Results/promptops_gemini.zip)
+[⬇️ Download Gemini Results (ZIP)](PromptOps/Experiment/Results/promtops_gemini.zip)
 
-[⬇️ Download GPT Excel Results (ZIP)](Experement/Results/promptops_gpt.zip)
+[⬇️ Download GPT Results (ZIP)](PromptOps/Experiment/Results/promtops_gpt.zip)
 
 
 ## 🙏 Acknowledgments
