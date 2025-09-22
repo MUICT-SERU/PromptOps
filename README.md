@@ -184,6 +184,14 @@ Each perturbation type includes:
 **QA (without context): Gemini**  
 ![Gemini Without Context](images/without_context_gemini.png) 
 
+###Download for excel results:
+### 📊 Download Excel Results
+
+[⬇️ Download All Excel Results (ZIP)](gemini_results.zip)
+
+[⬇️ Download All Excel Results (ZIP)](gpt_results.zip)
+
+
 ## 🙏 Acknowledgments
 
 This project is based on research from "Test It Before You Trust It: Applying Software Testing for Trustworthy In-context Learning" and builds upon various open-source libraries and frameworks:
