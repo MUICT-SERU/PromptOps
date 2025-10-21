@@ -1,5 +1,6 @@
 FROM python:3.9.13-slim
 
+
 # Install system dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends python3-venv build-essential curl && \

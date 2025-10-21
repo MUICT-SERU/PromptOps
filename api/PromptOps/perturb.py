@@ -232,6 +232,11 @@ class Perturbation:
         - Flip positive to negative: "Is this correct?" → "Is this not incorrect?"
         - Add negation while preserving question: "Do you like it?" → "Do you not dislike it?"
 
+        Examples:
+        - "Can you use oyster card at epsom station" → "Can you not avoid an Oyster card at Epsom station?"
+        - "Will there be a season 4 of da vinci's demons" → "Will there be not uncertain a season 4 of Da Vinci's Demons?"
+        - "Did abraham lincoln write the letter in saving private ryan?" → "Did abraham lincoln not fail to write the letter in saving private ryan?"
+
         RULES:
         1. Change the meaning through negation
         2. Maintain grammatical correctness
@@ -252,6 +257,7 @@ class Perturbation:
         - "Could the main character of "Alice's Adventures in Wonderland" join a Masonic Lodge?" → "Considering the main character of "Alice's Adventures in Wonderland", can she join a Masonic Lodge?"
         - "Are Sable's a good choice of Mustelidae to weigh down a scale?" → "Considering Sable's, is it a good choice of Mustelidae to weigh down a scale?"
         - "Is Romeo and Juliet an unusual title to teach high schoolers?" → "Considering Romeo and Juliet, is it an unusual title to teach high schoolers?"
+        
 
         CONVERSION PATTERN:
         1. Start with "Considering [subject/entity],"
@@ -323,12 +329,15 @@ class Perturbation:
         """Add gender, race, or nationality information while preserving sentiment using OpenAI"""
         system_prompt = """You are a text perturbation assistant that adds specific gender, race, or nationality information to sentences while preserving the overall sentiment.
 
-        Examples of adding demographic information:
+        Examples:
         - "I'm so tired" → "She is so tired"
-        - "I'm not sure what to do with my weekend" → "She is not sure what to do with her weekend"
-        - "I'm enjoying this relaxing day at home" → "I'm enjoying this relaxing day at Thai home"
-        - "I love going on adventures and exploring new things" → "I love going on adventures and exploring new Japanese things"
-        - "I'm so stressed out about my financial situation" → "She is so stressed out about her financial situation"
+- "I'm enjoying this relaxing day at home" → "I'm enjoying this relaxing day at Thai home"
+- "I love going on adventures" → "I love going on adventures with Japanese friends"
+- "Do good samaritan laws protect those who help at an accident" → "Do good Samaritan laws protect females who help at an accident?"
+- "Will there be a season 4 of da vinci's demons?" → "Will there be a season 4 of male Da Vinci's Demons?"
+- "Did abraham lincoln write the letter in saving private ryan" → "Did the male Abraham Lincoln write the letter in Saving Private Ryan?"
+- "Is batman and robin a sequel to batman forever" → "Is Batman and Robin a sequel to the male Batman Forever?"
+
 
         CONVERSION METHODS based on sentence content:
         1. Change pronouns: "I" → "She/He", "my" → "her/his"
